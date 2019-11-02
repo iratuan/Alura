@@ -6,6 +6,8 @@
 package br.com.alura;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 
 /**
  *
@@ -16,11 +18,13 @@ public class TesteListas {
         String aula1 = "Conhecendo mais de Listas";
         String aula2 = "Modelando a classe Aula";
         String aula3 = "Trabalhando com Cursos e Sets";
+        String aula4 = "Aprendendo a somar";
         
         ArrayList<String> aulas = new ArrayList<>();
         aulas.add(aula1);
         aulas.add(aula2);
         aulas.add(aula3);
+        aulas.add(aula4);
         
         System.out.println("FOR EM OBJETOS");
         for (String aula : aulas) {
@@ -45,6 +49,11 @@ public class TesteListas {
         aulas.forEach(aula -> {
             System.out.println("Aula :" + aula);
         });
+        
+        
+        System.out.println("ORDENAR AULAS");
+        Collections.sort(aulas);
+        System.out.println("Aulas: " + aulas);
+        
     }
 }
-
