@@ -22,11 +22,17 @@ public class TesteListas {
         aulas.add(aula2);
         aulas.add(aula3);
         
-        System.out.println(aulas);
+        for (String aula : aulas) {
+            System.out.println("Aula:" + aula);
+        }
         
-        aulas.remove(aula2);
+        String primeiraAula = aulas.get(0);
+        System.out.println("A primeira aula é: " + primeiraAula);
         
-        System.out.println(aulas);
+        
+        for(int i = 0; i < aulas.size(); i ++){
+            System.out.println("Aula atual: " + aulas.get(i));
+        }
     }
 }
 
