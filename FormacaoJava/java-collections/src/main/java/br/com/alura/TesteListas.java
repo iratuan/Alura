@@ -22,9 +22,9 @@ public class TesteListas {
         aulas.add(aula2);
         aulas.add(aula3);
         
-        for (String aula : aulas) {
+        aulas.forEach((aula) -> {
             System.out.println("Aula:" + aula);
-        }
+        });
         
         String primeiraAula = aulas.get(0);
         System.out.println("A primeira aula é: " + primeiraAula);
