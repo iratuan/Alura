@@ -5,15 +5,12 @@
  */
 package br.com.alura.testes;
 
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
 import br.com.alura.Aula;
 import java.util.ArrayList;
+import java.util.Comparator;
 
 /**
  *
@@ -22,10 +19,10 @@ import java.util.ArrayList;
 public class TestAula {
 
     ArrayList<Aula> aulas = new ArrayList<>();
-    Aula a1 = new Aula("Aula 01", 180);
-    Aula a2 = new Aula("Aula 02", 180);
-    Aula a3 = new Aula("Aula 03", 180);
-    Aula a4 = new Aula("Aula 04", 180);
+    Aula a1 = new Aula("Aula 01", 30);
+    Aula a2 = new Aula("Aula 02", 20);
+    Aula a3 = new Aula("Aula 03", 18);
+    Aula a4 = new Aula("Aula 04", 75);
 
     public TestAula() {        
         aulas.add(a1);
@@ -42,5 +39,11 @@ public class TestAula {
     @Test
     public void ordenaAulas() {
         assertEquals(1, a2.compareTo(a1));
+    }
+    
+    @Test
+    public void testaComparaTempo(){
+        aulas.sort(Comparator.comparing(Aula::getTempo));
+        assertEquals(a3, aulas.get(0));
     }
 }
