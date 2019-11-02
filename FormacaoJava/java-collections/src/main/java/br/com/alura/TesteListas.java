@@ -22,17 +22,29 @@ public class TesteListas {
         aulas.add(aula2);
         aulas.add(aula3);
         
+        System.out.println("FOR EM OBJETOS");
+        for (String aula : aulas) {
+            System.out.println("Aula: " + aula);
+        }
+        
+        System.out.println("FOR FUNCIONAL");
         aulas.forEach((aula) -> {
             System.out.println("Aula:" + aula);
         });
         
+        System.out.println("PEGANDO UM ELEMENTO");
         String primeiraAula = aulas.get(0);
         System.out.println("A primeira aula é: " + primeiraAula);
         
-        
+        System.out.println("FOR TRADICIONAL");
         for(int i = 0; i < aulas.size(); i ++){
             System.out.println("Aula atual: " + aulas.get(i));
         }
+        
+        System.out.println("FOREACH");
+        aulas.forEach(aula -> {
+            System.out.println("Aula :" + aula);
+        });
     }
 }
 
