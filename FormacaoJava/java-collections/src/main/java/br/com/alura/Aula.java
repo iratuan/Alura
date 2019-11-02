@@ -23,4 +23,9 @@ public class Aula implements Comparable<Aula>{
     public int compareTo(Aula outraAula) {        
         return this.getTitulo().compareTo(outraAula.getTitulo());
     }    
+
+    @Override
+    public String toString() {
+        return "[Aula: " +this.getTitulo()+ ", com " +this.getTempo()+ " minutos]";
+    }
 }
