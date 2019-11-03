@@ -92,5 +92,16 @@ public class TestCurso {
         
         assertEquals(a2, this.curso.ordernaAlunosPorNome().get(0));
     }
+    
+    @Test
+    public void testaBuscaAlunoPorNome(){
+        Aluno a1 = new Aluno("Iratuã Junior");
+        Aluno a2 = new Aluno("Erika Rosal");
+        
+        this.curso.mantriculaAluno(a1);
+        this.curso.mantriculaAluno(a2);
+        
+        assertTrue(this.curso.alunoEstaMatriculado("Iratuã Junior"));
+    }
 }
 

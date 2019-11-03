@@ -69,7 +69,16 @@ public class Curso {
     }
 
     public ArrayList<Aluno> ordernaAlunosPorNome() {
-       this.alunos.sort(Comparator.comparing(Aluno::getNome));
-       return this.getAlunos();        
+        this.alunos.sort(Comparator.comparing(Aluno::getNome));
+        return this.getAlunos();
+    }
+
+    public boolean alunoEstaMatriculado(String nome) {
+        for (Aluno a : alunos) {
+            if (a.getNome() == nome) {
+                return true;
+            }
+        }
+        return false;
     }
 }
