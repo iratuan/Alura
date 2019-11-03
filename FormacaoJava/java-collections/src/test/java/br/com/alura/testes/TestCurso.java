@@ -1,8 +1,8 @@
 package br.com.alura.testes;
 
+import br.com.alura.Aluno;
 import br.com.alura.Aula;
 import br.com.alura.Curso;
-import java.util.Comparator;
 import java.util.List;
 import static org.junit.Assert.*;
 import org.junit.Test;
@@ -70,4 +70,27 @@ public class TestCurso {
 
         assertEquals(50.00, this.curso.getTempoTotal(),2);
     }
+    
+    @Test
+    public void testaMatriculaAluno(){
+        Aluno a1 = new Aluno("Iratuã Junior");
+        Aluno a2 = new Aluno("Erika Rosal");
+        
+        this.curso.mantriculaAluno(a1);
+        this.curso.mantriculaAluno(a2);
+        
+        assertEquals(2, this.curso.getAlunos().size());
+    }
+    
+    @Test
+    public void testaOrdenaAlunosPorNome(){
+        Aluno a1 = new Aluno("Iratuã Junior");
+        Aluno a2 = new Aluno("Erika Rosal");
+        
+        this.curso.mantriculaAluno(a1);
+        this.curso.mantriculaAluno(a2);
+        
+        assertEquals(a2, this.curso.ordernaAlunosPorNome().get(0));
+    }
 }
+
