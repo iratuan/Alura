@@ -34,5 +34,14 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/iratuan/.m2/repository/br/com/caelum/vraptor/4.0.0.Final/vraptor-4.0.0.Final.jar" sourcepath="C:/Users/iratuan/.m2/repository/br/com/caelum/vraptor/4.0.0.Final/vraptor-4.0.0.Final-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="br.com.caelum"/>
+			<attribute name="maven.artifactId" value="vraptor"/>
+			<attribute name="maven.version" value="4.0.0.Final"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
