@@ -16,7 +16,7 @@ public class Empresa {
 		this.nome = nome;
 		this.id = Banco.listaEmpresas().size() + 1;
 		try {
-			this.dataAbertura = this.setDataAbertura(dataAbertura);
+			this.setDataAbertura(dataAbertura);
 		} catch (ParseException e) {
 			System.out.println(e.getMessage());
 		}
@@ -34,9 +34,9 @@ public class Empresa {
 		this.nome = nome;
 	}
 	
-	public Date setDataAbertura(String data) throws ParseException {
+	public void setDataAbertura(String data) throws ParseException {
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
-		return sdf.parse(data);
+		this.dataAbertura = sdf.parse(data);
 	}
 	
 	public Date getDataAbertura() {

@@ -10,13 +10,13 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action='<c:url value="/index?acao=empresa/atualiza"/>' method="post">
-	<input type="hidden" name="id"
-			value="${ empresa.id }" />
-		<label>Nome: <input type="text" name="nome"
-			value="${ empresa.nome }" /></label> 
-		<label>Data abertura: <input
-			type="text" name="dataAbertura" value='<fmt:formatDate value="${ empresa.dataAbertura }" pattern="dd/MM/yyyy"/>' /></label>
+	<form action='<c:url value="/index?acao=empresa/salva"/>' method="post">
+		<input type="hidden" name="id" value="${ empresa.id }" /> 
+		<input type="hidden" name="atualiza" value="true" />
+		<label>Nome:
+			<input type="text" name="nome" value="${ empresa.nome }" />
+		</label> <label>Data abertura: <input type="text" name="dataAbertura"
+			value='<fmt:formatDate value="${ empresa.dataAbertura }" pattern="dd/MM/yyyy"/>' /></label>
 		<input type="submit" value="Enviar">
 	</form>
 </body>
