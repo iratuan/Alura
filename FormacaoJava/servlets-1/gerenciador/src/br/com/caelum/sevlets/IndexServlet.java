@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import br.com.caelum.gerenciador.acao.AdicionaEmpresa;
 import br.com.caelum.gerenciador.acao.AtualizaEmpresa;
 import br.com.caelum.gerenciador.acao.EditaEmpresa;
+import br.com.caelum.gerenciador.acao.ExcluiEmpresa;
 import br.com.caelum.gerenciador.acao.Gerenciavel;
 import br.com.caelum.gerenciador.acao.ListaEmpresas;
 import br.com.caelum.gerenciador.acao.SalvaEmpresa;
@@ -54,7 +55,7 @@ public class IndexServlet extends HttpServlet {
 			break;
 			
 		case "empresa/exclui":
-			acao = new AtualizaEmpresa();
+			acao = new ExcluiEmpresa();
 			acao.executa(request, response);
 			break;
 
