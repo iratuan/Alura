@@ -10,7 +10,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action='<c:url value="/empresa/edita"/>' method="post">
+	<form action='<c:url value="/index?acao=empresa/atualiza"/>' method="post">
 	<input type="hidden" name="id"
 			value="${ empresa.id }" />
 		<label>Nome: <input type="text" name="nome"

@@ -15,8 +15,8 @@
 		<li>
 			${ empresa.nome} - 
 			<fmt:formatDate value="${empresa.dataAbertura}" pattern="dd/MM/yyyy"/>
-			<a href='<c:url value="edita"/>?id=${empresa.id}'>Editar</a> | 
-			<a href='<c:url value="exclui"/>?id=${empresa.id}'>Excluir</a>
+			<a href='<c:url value="/index?acao=empresa/edita"/>&id=${empresa.id}'>Editar</a> | 
+			<a href='<c:url value="/index?acao=empresa/exclui"/>&id=${empresa.id}'>Excluir</a>
 		</li>
 		</c:forEach>
 	</ul>

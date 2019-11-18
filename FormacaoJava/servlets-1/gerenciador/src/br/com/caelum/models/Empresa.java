@@ -34,7 +34,7 @@ public class Empresa {
 		this.nome = nome;
 	}
 	
-	private Date setDataAbertura(String data) throws ParseException {
+	public Date setDataAbertura(String data) throws ParseException {
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 		return sdf.parse(data);
 	}

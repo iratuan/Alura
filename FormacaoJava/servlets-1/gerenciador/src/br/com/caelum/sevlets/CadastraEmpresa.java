@@ -13,7 +13,7 @@ import br.com.caelum.models.Banco;
 import br.com.caelum.models.Empresa;
 
 
-@WebServlet("/empresa/adicionar")
+@WebServlet("/empresa/adiciona")
 public class CadastraEmpresa extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
