@@ -20,13 +20,12 @@ class EmpresaTest {
 
 	@Test
 	void removeEmpresa() {
-		Banco.removeEmpresas();		
+		Banco.removeEmpresas();
 		Banco.adicionaEmpresa(e);
 		Banco.removeEmpresa(e);
 		assertEquals(0, Banco.listaEmpresas().size());
 	}
-	
-	
+
 	@Test
 	void encontraEmpresa() {
 		Banco.encontraEmpresa(1);

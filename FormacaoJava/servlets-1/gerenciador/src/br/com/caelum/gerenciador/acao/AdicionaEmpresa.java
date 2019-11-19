@@ -12,9 +12,8 @@ import br.com.caelum.models.Banco;
 import br.com.caelum.models.Empresa;
 
 public class AdicionaEmpresa implements Gerenciavel {
-	public void executa(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/empresa/formulario.jsp");
-		rd.forward(request, response);
+	public String executa(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		return "forward:/WEB-INF/empresa/formulario.jsp";
 	}
 
 }

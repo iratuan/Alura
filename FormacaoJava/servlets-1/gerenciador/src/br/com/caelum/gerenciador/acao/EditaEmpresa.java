@@ -12,13 +12,12 @@ import br.com.caelum.models.Banco;
 import br.com.caelum.models.Empresa;
 
 public class EditaEmpresa implements Gerenciavel {
-	public void executa(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	public String executa(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		Integer empresaId = Integer.parseInt(request.getParameter("id"));
 		Empresa empresa = Banco.encontraEmpresa(empresaId);
 
-		RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/empresa/edita.jsp");
 		request.setAttribute("empresa", empresa);
-		rd.forward(request, response);
+		return "forward:/WEB-INF/empresa/edita.jsp";
 	}
 
 }

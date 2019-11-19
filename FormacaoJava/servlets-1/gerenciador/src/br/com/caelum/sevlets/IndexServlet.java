@@ -2,6 +2,7 @@ package br.com.caelum.sevlets;
 
 import java.io.IOException;
 
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -25,37 +26,47 @@ public class IndexServlet extends HttpServlet {
 		String acaoParam = request.getParameter("acao");
 		
 		Gerenciavel acao = null;
+		String destino = null;
 		
 		switch (acaoParam) {
 		
 		case "empresa/lista":
 			acao = new ListaEmpresas();
-			acao.executa(request, response);
+			destino = acao.executa(request, response);
 			break;
 			
 		case "empresa/formulario":
 			acao = new AdicionaEmpresa();
-			acao.executa(request, response);
+			destino =  acao.executa(request, response);
 			break;
 			
 		case "empresa/salva":
 			acao = new SalvaEmpresa();
-			acao.executa(request, response);
+			destino =  acao.executa(request, response);
 			break;
 			
 		case "empresa/edita":
 			acao = new EditaEmpresa();
-			acao.executa(request, response);
+			destino =  acao.executa(request, response);
 			break;	
 			
 		case "empresa/exclui":
 			acao = new ExcluiEmpresa();
-			acao.executa(request, response);
+			destino = acao.executa(request, response);
 			break;
 
 		default:
-			response.sendRedirect("empresa/lista"); 
+			destino =  "redirec:empresa/lista"; 
 			break;			
+		}
+		
+		
+		String[] tipoEndereco = destino.split(":");
+		if(tipoEndereco[0].equals("forward")) {
+			RequestDispatcher rd = request.getRequestDispatcher(tipoEndereco[1]);
+			rd.forward(request, response);
+		}else {
+			response.sendRedirect(tipoEndereco[1]);
 		}
 
 	}

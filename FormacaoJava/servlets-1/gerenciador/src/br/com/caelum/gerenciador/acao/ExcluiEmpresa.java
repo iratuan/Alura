@@ -12,7 +12,8 @@ import br.com.caelum.models.Banco;
 import br.com.caelum.models.Empresa;
 
 public class ExcluiEmpresa implements Gerenciavel {
-	public void executa(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	public String executa(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
 		int empresaId = Integer.parseInt(request.getParameter("id"));
 
 		for (Empresa e : Banco.listaEmpresas()) {
@@ -21,7 +22,7 @@ public class ExcluiEmpresa implements Gerenciavel {
 			}
 		}
 
-		response.sendRedirect("index?acao=empresa/lista");
+		return "redirec:index?acao=empresa/lista";
 	}
 
 }

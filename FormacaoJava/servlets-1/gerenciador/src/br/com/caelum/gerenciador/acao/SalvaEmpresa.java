@@ -13,7 +13,7 @@ import br.com.caelum.models.Banco;
 import br.com.caelum.models.Empresa;
 
 public class SalvaEmpresa implements Gerenciavel {
-	public void executa(HttpServletRequest request, HttpServletResponse response) throws IOException {
+	public String executa(HttpServletRequest request, HttpServletResponse response) throws IOException {
 		if (Boolean.parseBoolean(request.getParameter("atualiza")) == true) {
 			int empresaId = Integer.parseInt(request.getParameter("id"));
 			Empresa empresa = Banco.encontraEmpresa(empresaId);
@@ -28,6 +28,6 @@ public class SalvaEmpresa implements Gerenciavel {
 			Banco.adicionaEmpresa(empresa);
 
 		}
-		response.sendRedirect("index?acao=empresa/lista");
+		return "redirec:index?acao=empresa/lista";
 	}
 }
