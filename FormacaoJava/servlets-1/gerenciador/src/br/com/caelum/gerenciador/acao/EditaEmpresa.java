@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import br.com.caelum.models.Banco;
 import br.com.caelum.models.Empresa;
 
-public class EditaEmpresa implements Gerenciavel {
+public class EditaEmpresa implements Executavel {
 	public String executa(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		Integer empresaId = Integer.parseInt(request.getParameter("id"));
 		Empresa empresa = Banco.encontraEmpresa(empresaId);

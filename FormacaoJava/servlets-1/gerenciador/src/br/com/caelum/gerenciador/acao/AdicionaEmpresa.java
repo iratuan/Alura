@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import br.com.caelum.models.Banco;
 import br.com.caelum.models.Empresa;
 
-public class AdicionaEmpresa implements Gerenciavel {
+public class AdicionaEmpresa implements Executavel {
 	public String executa(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		return "forward:/WEB-INF/empresa/formulario.jsp";
 	}

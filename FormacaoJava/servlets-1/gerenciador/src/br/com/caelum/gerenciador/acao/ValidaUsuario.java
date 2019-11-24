@@ -7,22 +7,25 @@ import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import br.com.caelum.models.Banco;
 import br.com.caelum.models.Empresa;
+import br.com.caelum.models.Usuario;
 
-public class ExcluiEmpresa implements Executavel {
+public class ValidaUsuario implements Executavel {
 	public String executa(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		int empresaId = Integer.parseInt(request.getParameter("id"));
 
-		for (Empresa e : Banco.listaEmpresas()) {
-			if (e.getId() == empresaId) {
-				Banco.removeEmpresa(e);
-			}
+		String nome = request.getParameter("nome");
+
+		Usuario usuario = Banco.buscaUsuario(nome);
+
+		if (usuario != null) {
+			HttpSession session = request.getSession();
+			session.setAttribute("usuarioLogado", usuario);
+			return "redirec:index?acao=empresa/lista";
 		}
-
-		return "redirec:index?acao=empresa/lista";
+		return null;
 	}
-
 }

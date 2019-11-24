@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import br.com.caelum.models.Banco;
 import br.com.caelum.models.Empresa;
 
-public class SalvaEmpresa implements Gerenciavel {
+public class SalvaEmpresa implements Executavel {
 	public String executa(HttpServletRequest request, HttpServletResponse response) throws IOException {
 		if (Boolean.parseBoolean(request.getParameter("atualiza")) == true) {
 			int empresaId = Integer.parseInt(request.getParameter("id"));
