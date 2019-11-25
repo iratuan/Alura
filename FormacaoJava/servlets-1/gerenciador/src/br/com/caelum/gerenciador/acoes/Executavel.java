@@ -1,4 +1,4 @@
-package br.com.caelum.gerenciador.acao;
+package br.com.caelum.gerenciador.acoes;
 
 import java.io.IOException;
 

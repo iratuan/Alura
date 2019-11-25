@@ -8,7 +8,7 @@
 <title>Login</title>
 </head>
 <body>
-<form action='<c:url value="/index?acao=usuario/valida"/>' method="post">
+<form action='<c:url value="/index?acao=ValidaUsuario"/>' method="post">
 	<input type="text" name="nome" />
 	<input type="text" name="senha" />
 	<input type="submit" value="Logar" />

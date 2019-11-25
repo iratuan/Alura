@@ -1,4 +1,4 @@
-package br.com.caelum.gerenciador.acao;
+package br.com.caelum.gerenciador.acoes;
 
 import java.io.IOException;
 import java.text.ParseException;
@@ -28,6 +28,6 @@ public class SalvaEmpresa implements Executavel {
 			Banco.adicionaEmpresa(empresa);
 
 		}
-		return "redirec:index?acao=empresa/lista";
+		return "redirec:index?acao=ListaEmpresas";
 	}
 }

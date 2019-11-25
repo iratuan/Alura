@@ -10,7 +10,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<form action='<c:url value="/index?acao=empresa/salva"/>' method="post">
+<%@include file="../includes/login.jsp" %>
+	<form action='<c:url value="/index?acao=SalvaEmpresa/>' method="post">
 		<label>Nome: <input type="text" name="nome" /></label> 
 		<label>Data abertura: <input
 			type="text" name="dataAbertura"  /></label>

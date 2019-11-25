@@ -1,4 +1,4 @@
-package br.com.caelum.gerenciador.acao;
+package br.com.caelum.gerenciador.acoes;
 
 import java.io.IOException;
 import java.util.List;
@@ -22,7 +22,7 @@ public class ExcluiEmpresa implements Executavel {
 			}
 		}
 
-		return "redirec:index?acao=empresa/lista";
+		return "redirec:index?acao=ListaEmpresas";
 	}
 
 }

@@ -12,14 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-import br.com.caelum.gerenciador.acao.AdicionaEmpresa;
-import br.com.caelum.gerenciador.acao.EditaEmpresa;
-import br.com.caelum.gerenciador.acao.ExcluiEmpresa;
-import br.com.caelum.gerenciador.acao.Executavel;
-import br.com.caelum.gerenciador.acao.ListaEmpresas;
-import br.com.caelum.gerenciador.acao.Login;
-import br.com.caelum.gerenciador.acao.SalvaEmpresa;
-import br.com.caelum.gerenciador.acao.ValidaUsuario;
+import br.com.caelum.gerenciador.acoes.Executavel;
 import br.com.caelum.models.Usuario;
 
 @WebServlet("/index")
@@ -28,75 +21,33 @@ public class IndexServlet extends HttpServlet {
 	public static List<String> rotasPublicas = new ArrayList<String>();
 
 	public IndexServlet() {
-		rotasPublicas.add("login");
-		rotasPublicas.add("usuario/valida");
+		rotasPublicas.add("Login");
+		rotasPublicas.add("ValidaUsuario");
 	}
 
 	protected void service(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 
 		String acaoParam = request.getParameter("acao");
-
-		Executavel acao = null;
+		String nomeClasse = "br.com.caelum.gerenciador.acoes." + acaoParam;
 		String destino = null;
 
-		switch (acaoParam) {
-
-		case "empresa/lista":
-			acao = new ListaEmpresas();
+		try {
+			Class classe = Class.forName(nomeClasse);
+			Executavel acao = (Executavel) classe.newInstance();
 			destino = acao.executa(request, response);
-			break;
-
-		case "empresa/formulario":
-			acao = new AdicionaEmpresa();
-			destino = acao.executa(request, response);
-			break;
-
-		case "empresa/salva":
-			acao = new SalvaEmpresa();
-			destino = acao.executa(request, response);
-			break;
-
-		case "empresa/edita":
-			acao = new EditaEmpresa();
-			destino = acao.executa(request, response);
-			break;
-
-		case "empresa/exclui":
-			acao = new ExcluiEmpresa();
-			destino = acao.executa(request, response);
-			break;
-
-		case "usuario/valida":
-			acao = new ValidaUsuario();
-			destino = acao.executa(request, response);
-			break;
-
-
-		default:
-			acao = new Login();
-			destino = acao.executa(request, response);
-			break;
+		} catch (Exception e) {
+			System.out.println("Um erro ocorreu: " + e.getMessage());
 		}
 
-		
 		String[] tipoEndereco = destino.split(":");
-				
-		HttpSession session = request.getSession();
-		
-		boolean isValido = (session.getAttribute("usuarioLogado") != null || IndexServlet.rotasPublicas.contains(acaoParam)); 
-		
-		if(!isValido) {
-			response.sendRedirect(request.getContextPath() + "/index?acao=login");
-		}else {
-			if (tipoEndereco[0].equals("forward")) {
-				RequestDispatcher rd = request.getRequestDispatcher(tipoEndereco[1]);
-				rd.forward(request, response);
-			} else {
-				response.sendRedirect(tipoEndereco[1]);
-			}
+		if (tipoEndereco[0].equals("forward")) {
+			RequestDispatcher rd = request.getRequestDispatcher(tipoEndereco[1]);
+			rd.forward(request, response);
+		} else {
+			response.sendRedirect(tipoEndereco[1]);
 		}
-				
+
 	}
 
 }
