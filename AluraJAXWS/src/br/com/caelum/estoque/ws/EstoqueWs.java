@@ -14,7 +14,7 @@ import br.com.caelum.estoque.modelo.item.ItemDao;
 import br.com.caelum.estoque.modelo.item.ListaItens;
 
 @WebService
-public class EstoqueWS {
+public class EstoqueWs {
 
 	private ItemDao dao = new ItemDao();
 

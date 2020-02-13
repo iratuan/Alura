@@ -6,8 +6,8 @@ public class PublicaEstoqueWS {
 
 	public static void main(String[] args) {
 		
-		EstoqueWS implementacaoWS = new EstoqueWS();
-		String URL = "http://localhost:8080/estoquews";
+		EstoqueWs implementacaoWS = new EstoqueWs();
+		String URL = "http://localhost:9000/estoquews";
 
 		System.out.println("EstoqueWS rodando: " + URL);
 
