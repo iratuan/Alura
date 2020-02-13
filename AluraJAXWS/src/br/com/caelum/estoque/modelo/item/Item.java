@@ -1,8 +1,6 @@
 package br.com.caelum.estoque.modelo.item;
 
-import javax.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement
 public class Item {
 
 	private String codigo;

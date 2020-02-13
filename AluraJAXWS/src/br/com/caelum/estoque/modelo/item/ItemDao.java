@@ -6,7 +6,6 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-
 public class ItemDao {
 
 	private static Map<String, Item> ITENS = new LinkedHashMap<>();
