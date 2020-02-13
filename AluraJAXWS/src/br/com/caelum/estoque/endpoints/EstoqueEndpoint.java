@@ -2,7 +2,7 @@ package br.com.caelum.estoque.endpoints;
 
 import javax.xml.ws.Endpoint;
 
-import br.com.caelum.estoque.sws.EstoqueWs;
+import br.com.caelum.estoque.ws.EstoqueWs;
 
 public class EstoqueEndpoint {
 
