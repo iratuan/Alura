@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {View, Text, ImageBackground, StyleSheet} from 'react-native';
-import Camera from '../components/Camera';
+import Camera from '../components/CameraComponent';
+import ImagePickerComponent from '../components/ImagePickerComponent';
 
 class Dashboard extends Component {
   render() {
@@ -10,6 +11,7 @@ class Dashboard extends Component {
         style={{width: '100%', height: '100%'}}>
         <View style={styles.viewContainer}>
           <Camera />
+          <ImagePickerComponent />
         </View>
       </ImageBackground>
     );
