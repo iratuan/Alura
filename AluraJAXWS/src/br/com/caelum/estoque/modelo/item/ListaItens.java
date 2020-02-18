@@ -10,7 +10,6 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.FIELD)
 public class ListaItens {
-
 	@XmlElement(name="item")
 	private List<Item> itens;
 
@@ -20,9 +19,9 @@ public class ListaItens {
 
 	ListaItens() {
 	}
-
+	
 	public List<Item> getItens() {
 		return itens;
 	}
-
+	
 }
