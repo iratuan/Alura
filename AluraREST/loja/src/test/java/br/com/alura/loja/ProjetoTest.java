@@ -8,6 +8,8 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
 import org.glassfish.grizzly.http.server.HttpServer;
+import org.glassfish.jersey.client.ClientConfig;
+import org.glassfish.jersey.filter.LoggingFilter;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -22,11 +24,13 @@ public class ProjetoTest {
 	private HttpServer server;
 	private Client client;
 	private WebTarget target;
+	private ClientConfig config = new ClientConfig();
 
 	@Before
 	public void startServer() {
 		this.server = Servidor.start();
-		client = ClientBuilder.newClient();
+		config.register(new LoggingFilter());
+		client = ClientBuilder.newClient(config);
 		target = client.target("http://localhost:8080");
 	}
 
