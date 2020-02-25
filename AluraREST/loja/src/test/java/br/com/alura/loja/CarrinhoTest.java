@@ -20,22 +20,27 @@ import br.com.alura.loja.modelo.Produto;
 import junit.framework.Assert;
 
 public class CarrinhoTest {
+
 	private HttpServer server;
+	private Client client;
+	private WebTarget target;
 
 	@Before
 	public void startServer() {
 		this.server = Servidor.start();
+		client = ClientBuilder.newClient();
+		target = client.target("http://localhost:8080");
 	}
 
 	@After
 	public void stopServer() {
 		server.stop();
+		client.close();
 	}
 
 	@Test
 	public void testaQueBuscarUmCarrinhoTrazOCarrinhoEsperado() {
-		Client client = ClientBuilder.newClient();
-		WebTarget target = client.target("http://localhost:8080");
+		
 		String conteudo = target.path("/carrinhos/1").request().get(String.class);
 		Carrinho carrinho = (Carrinho) new XStream().fromXML(conteudo);
 		System.out.println(conteudo);
@@ -44,8 +49,7 @@ public class CarrinhoTest {
 	
 	@Test
 	public void testaAdicaoDeUmCarrinho() {
-		Client client = ClientBuilder.newClient();
-		WebTarget target = client.target("http://localhost:8080");
+		
 		Carrinho carrinho = new Carrinho();
 		carrinho.adiciona(new Produto(314l, "Tablet", 999, 1));
 		carrinho.setRua("Rua Vergueiro");
@@ -59,6 +63,11 @@ public class CarrinhoTest {
 		String location = response.getHeaderString("Location");
 		String conteudo = client.target(location).request().get(String.class);
 		Assert.assertTrue(conteudo.contains("Rua Vergueiro"));
-		
 	}
+
+		@Test
+		public void testeRemocaoCarrinho() {
+			Response response = target.path("/carrinhos/1/produtos/6237").request().delete();
+			Assert.assertEquals(response.getStatus(), 200);
+		}
 }
