@@ -7,7 +7,10 @@ import javax.persistence.Id;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
 
+import br.caelum.alura.interception.Logger;
+
 @Entity
+@Logger
 public class AgendamentoEmail {
 
 	@Id

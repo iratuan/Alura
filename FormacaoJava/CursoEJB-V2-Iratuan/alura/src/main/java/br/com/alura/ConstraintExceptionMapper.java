@@ -10,7 +10,7 @@ import javax.ws.rs.ext.Provider;
 import br.com.alura.dto.MensagemErroDTO;
 
 @Provider
-public class ConstraintValidationMapper implements ExceptionMapper<ConstraintViolationException> {
+public class ConstraintExceptionMapper implements ExceptionMapper<ConstraintViolationException> {
 
 	public Response toResponse(ConstraintViolationException e) {
 		return Response.status(Response.Status.BAD_REQUEST)
