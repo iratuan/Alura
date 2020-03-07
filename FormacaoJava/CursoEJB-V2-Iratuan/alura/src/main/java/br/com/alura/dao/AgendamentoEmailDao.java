@@ -4,6 +4,7 @@ import java.util.List;
 
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
+import javax.persistence.EntityTransaction;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 
@@ -30,5 +31,21 @@ public class AgendamentoEmailDao {
 				.setParameter("email", email);
 		return query.getResultList();
 
+	}
+	public List<AgendamentoEmail> listarAgendamentosNaoEnviados() {
+		Query query = entityManager
+				.createQuery("select a from AgendamentoEmail a where a.enviado = false",
+						AgendamentoEmail.class);
+		return query.getResultList();
+
+	}
+
+	public void atualizaStatusEmail(AgendamentoEmail agendamentoEmail) {
+		agendamentoEmail.setEnviado(true);
+		EntityTransaction tx = entityManager.getTransaction();
+		tx.begin();
+		entityManager.merge(agendamentoEmail);
+		tx.commit();
+		
 	}
 }
