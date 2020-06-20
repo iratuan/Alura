@@ -2,22 +2,10 @@ package br.com.alura.bytebank
 
 import java.lang.Exception
 
-class Conta {
-    var titular = ""
-    var numero = 0
-    var saldo = 0.0
-        private set
-
-    constructor()
-
-    constructor(titular:String, numero:Int, saldo:Double){
-        this.titular = titular
-        this.numero = numero
-        this.saldo = saldo
-    }
+class Conta(var titular: String, var numero: Int, var saldo: Double) {
 
     fun deposita(valor: Double) {
-        if(valor > 0){
+        if (valor > 0) {
             this.saldo += valor
         }
     }
@@ -30,12 +18,12 @@ class Conta {
         }
     }
 
-    fun transfere(destino:Conta, valor:Double): Boolean{
-        if(this.saldo >= valor){
+    fun transfere(destino: Conta, valor: Double): Boolean {
+        if (this.saldo >= valor) {
             this.saca(valor)
             destino.deposita(valor)
             return true
-        }else{
+        } else {
             return false
         }
     }
