@@ -2,7 +2,7 @@ package br.com.alura.bytebank
 
 import java.lang.Exception
 
-class Conta(var titular: String, var numero: Int, var saldo: Double) {
+class Conta(val titular: String, val numero: Int, var saldo: Double) {
 
     fun deposita(valor: Double) {
         if (valor > 0) {
