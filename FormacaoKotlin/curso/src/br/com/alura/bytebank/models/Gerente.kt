@@ -1,4 +1,8 @@
-package br.com.alura.bytebank
+package br.com.alura.bytebank.models
+
+import br.com.alura.bytebank.models.Autenticavel
+import br.com.alura.bytebank.models.Bonificavel
+import br.com.alura.bytebank.models.Funcionario
 
 class Gerente(
     nome: String,

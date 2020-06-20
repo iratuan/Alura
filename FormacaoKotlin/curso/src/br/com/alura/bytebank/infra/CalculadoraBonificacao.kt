@@ -1,4 +1,6 @@
-package br.com.alura.bytebank
+package br.com.alura.bytebank.infra
+
+import br.com.alura.bytebank.models.Bonificavel
 
 class CalculadoraBonificacao {
     var total: Double = 0.0

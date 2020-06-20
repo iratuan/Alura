@@ -1,4 +1,6 @@
-package br.com.alura.bytebank
+package br.com.alura.bytebank.models
+
+import br.com.alura.bytebank.models.Bonificavel
 
 abstract class Funcionario(
     val nome: String,

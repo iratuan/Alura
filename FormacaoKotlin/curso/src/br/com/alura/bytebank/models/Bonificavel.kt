@@ -1,4 +1,4 @@
-package br.com.alura.bytebank
+package br.com.alura.bytebank.models
 
 interface Bonificavel {
     var salario:Double

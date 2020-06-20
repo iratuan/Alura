@@ -1,5 +1,7 @@
 package br.com.alura.bytebank
 
+import br.com.alura.bytebank.models.*
+
 fun testandoContas(){
 
     val iratuan = Analista("Iratuan", "86410768320", 200.0)
@@ -10,9 +12,11 @@ fun testandoContas(){
     funcionarios.add(erika)
     funcionarios.add(ian)
 
-    var c1 = ContaCorrente(titular = iratuan, numero =123, saldo = 3000.0 )
-    var c2 = ContaPoupanca(titular = erika, numero =123, saldo = 3000.0 )
-    var c3 = ContaCorrente(titular = ian, numero =123, saldo = 3000.0 )
+    var c1 =
+        ContaCorrente(titular = iratuan, numero = 123, saldo = 3000.0)
+    var c2 =
+        ContaPoupanca(titular = erika, numero = 123, saldo = 3000.0)
+    var c3 = ContaCorrente(titular = ian, numero = 123, saldo = 3000.0)
 
 
     c1.deposita(500.0)

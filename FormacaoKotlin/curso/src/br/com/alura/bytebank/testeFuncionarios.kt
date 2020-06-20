@@ -1,5 +1,11 @@
 package br.com.alura.bytebank
 
+import br.com.alura.bytebank.infra.CalculadoraBonificacao
+import br.com.alura.bytebank.models.Analista
+import br.com.alura.bytebank.models.Diretor
+import br.com.alura.bytebank.models.Funcionario
+import br.com.alura.bytebank.models.Gerente
+
 fun testeFuncionarios(){
     val iratuan = Analista("Iratuan", "86410768320", 200.0)
     val erika = Gerente("Erika", "88855558885", 300.00, 1213)
