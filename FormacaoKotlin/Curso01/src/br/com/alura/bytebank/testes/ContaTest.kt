@@ -6,12 +6,12 @@ fun main() {
     var c1 = Conta()
     c1.titular = "Francisco Iratua Nobre Junior"
     c1.numero = 110110
-    c1.saldo = 3000.00
+    c1.deposita(3000.00)
 
     var c2 = Conta()
     c2.titular = "Erika"
     c2.numero = 25
-    c2.saldo = 3000.00
+    c2.deposita(3000.00)
 
 
     println(c2.saldo)
