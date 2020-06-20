@@ -1,9 +1,10 @@
 package br.com.alura.bytebank
 
-class ContaCorrente (
-    titular: String,
+class ContaCorrente(
+    titular: Funcionario,
     numero: Int,
-    saldo: Double) : Conta(
+    saldo: Double
+) : Conta(
     titular = titular,
     numero = numero,
     saldo = saldo) {

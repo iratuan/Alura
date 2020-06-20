@@ -1,7 +1,7 @@
 package br.com.alura.bytebank
 
 class ContaPoupanca(
-    titular: String,
+    titular: Funcionario,
     numero: Int,
     saldo: Double) : Conta(
     titular = titular,
