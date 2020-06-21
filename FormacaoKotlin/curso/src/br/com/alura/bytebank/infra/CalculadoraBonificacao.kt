@@ -1,5 +1,6 @@
 package br.com.alura.bytebank.infra
 
+import br.com.alura.bytebank.exceptions.NotFuncionarioException
 import br.com.alura.bytebank.models.Bonificavel
 
 class CalculadoraBonificacao {
@@ -7,6 +8,10 @@ class CalculadoraBonificacao {
         private set
 
     fun registra(funcionario: Bonificavel) {
-        this.total += funcionario.bonificacao
+        try {
+            this.total += funcionario.bonificacao
+        }catch (exception: ClassCastException){
+            println(exception.message)
+        }
     }
 }

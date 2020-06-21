@@ -1,7 +1,7 @@
 package br.com.alura.bytebank.models
 
 class ContaCorrente(
-    titular: Funcionario,
+    titular: Cliente,
     numero: Int,
     saldo: Double
 ) : Conta(

@@ -1,4 +1,4 @@
-package br.com.alura.bytebank
+package br.com.alura.bytebank.testes
 
 import br.com.alura.bytebank.infra.CalculadoraBonificacao
 import br.com.alura.bytebank.models.Analista
@@ -16,9 +16,13 @@ fun testeFuncionarios(){
     funcionarios.add(ian)
 
     val calculadoraBonificacao = CalculadoraBonificacao()
+
     for (funcionario in funcionarios ){
-        println("Adicionando o funcionario ${funcionario.nome} à lista de calculos.")
         calculadoraBonificacao.registra(funcionario)
     }
+    println("*********************************************************************************")
+    println("TESTANDO AS BONIFICAÇÕES DE FUNCIONARIOS")
+    println("*********************************************************************************")
     println("O total de bonificações foi de R$ ${calculadoraBonificacao.total}")
+    println("\n\n")
 }

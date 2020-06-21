@@ -1,9 +1,27 @@
 package br.com.alura.bytebank.models
 
-abstract class Conta(val titular: Funcionario, val numero: Int, saldo: Double) {
+import br.com.alura.bytebank.exceptions.SaldoInsuficienteException
+
+abstract class Conta(val titular: Cliente, val numero: Int, saldo: Double) {
 
     var saldo = saldo
         protected set
+
+
+    /**
+     * Análogo a uma variável estática
+     * */
+    companion object Contador {
+        var total: Int = 0
+            private set
+    }
+
+    /**
+     * Incrementa o contador global
+     * */
+    init {
+        Conta.total++
+    }
 
     fun deposita(valor: Double) {
         if (valor > 0) {
@@ -12,20 +30,19 @@ abstract class Conta(val titular: Funcionario, val numero: Int, saldo: Double) {
     }
 
     open fun saca(valor: Double) {
-        if (this.saldo >= valor) {
-            this.saldo -= valor
-        } else {
-            println("Valor de saque não permitido")
+        if (saldo < valor) {
+            SaldoInsuficienteException().message
         }
+        this.saldo -= valor
+
     }
 
     fun transfere(destino: Conta, valor: Double): Boolean {
-        if (this.saldo >= valor) {
-            this.saca(valor)
-            destino.deposita(valor)
-            return true
-        } else {
-            return false
+        if (saldo < valor) {
+            SaldoInsuficienteException().message
         }
+        this.saca(valor)
+        destino.deposita(valor)
+        return true
     }
 }
