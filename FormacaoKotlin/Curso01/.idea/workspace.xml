@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:FormacaoReact" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:FormacaoReact" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:blankprojectreactnative" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:FormacaoReact" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:camApp" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:FormacaoReact" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:curso01" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:FormacaoReact" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:gssAppV2" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4f6b263b-bece-4970-bfed-f156d2af161e" name="Default Changelist" comment="Rename da pasta do curso" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Kotlin File" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1dXkQ3SXUwDfQM3sdiNCTVcUms5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../curso" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="br.com.alura.bytebank" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="br.com.alura.bytebank" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.MainKt">
+    <configuration name="ContaTestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="formacao_kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.bytebank.testes.ContaTestKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="formacao_kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.bytebank.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteLoginKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="formacao_kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.bytebank.TesteLoginKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="formacao_kotlin" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="formacao_kotlin" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Kotlin.ContaTestKt" />
+        <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Kotlin.TesteLoginKt" />
+        <item itemvalue="Kotlin.ContaTestKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f6b263b-bece-4970-bfed-f156d2af161e" name="Default Changelist" comment="" />
+      <created>1592578805950</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592578805950</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Arquivos do curso 01 de Kotlin">
+      <created>1592615607502</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592615607502</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Arquivos do curso 01 de Kotlin">
+      <created>1592617079703</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592617079703</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Arquivos do curso 01 de Kotlin">
+      <created>1592618304535</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592618304535</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Arquivos do curso 01 de Kotlin">
+      <created>1592618344092</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592618344092</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Arquivos do curso 01 de Kotlin">
+      <created>1592675815803</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1592675815804</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Conclusão do Segundo curso de Kotlin">
+      <created>1592682501407</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592682501407</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Rename da pasta do curso">
+      <created>1592683550453</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1592683550453</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Arquivos do curso 01 de Kotlin" />
+    <MESSAGE value="Conclusão do Segundo curso de Kotlin" />
+    <MESSAGE value="Rename da pasta do curso" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rename da pasta do curso" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-878" y="260" key="#Servers" timestamp="1592615477412">
+      <screen x="-2560" y="0" width="2560" height="1050" />
+    </state>
+    <state x="-878" y="260" key="#Servers/0.0.1536.834/-2560.0.2560.1050@-2560.0.2560.1050" timestamp="1592615477412" />
+    <state x="-1642" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592683168325">
+      <screen x="-2560" y="0" width="2560" height="1050" />
+    </state>
+    <state x="-1642" y="89" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834/-2560.0.2560.1050@-2560.0.2560.1050" timestamp="1592683168325" />
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834/-2560.0.2560.1050@0.0.1536.834" timestamp="1592591287570" />
+    <state x="-849" y="240" key="#com.intellij.ide.util.MemberChooser" timestamp="1592681021000">
+      <screen x="-2560" y="0" width="2560" height="1050" />
+    </state>
+    <state x="-849" y="240" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/-2560.0.2560.1050@-2560.0.2560.1050" timestamp="1592681021000" />
+    <state x="498" y="207" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1592591283642">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="498" y="207" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.834/-2560.0.2560.1050@0.0.1536.834" timestamp="1592591283642" />
+    <state x="-910" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592681596147">
+      <screen x="-2560" y="0" width="2560" height="1050" />
+    </state>
+    <state x="-910" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834/-2560.0.2560.1050@-2560.0.2560.1050" timestamp="1592681596147" />
+    <state x="-818" y="354" width="463" height="497" key="#com.intellij.tools.ToolEditorDialog" timestamp="1592683056823">
+      <screen x="-2560" y="0" width="2560" height="1050" />
+    </state>
+    <state x="-818" y="354" width="463" height="497" key="#com.intellij.tools.ToolEditorDialog/0.0.1536.834/-2560.0.2560.1050@-2560.0.2560.1050" timestamp="1592683056823" />
+    <state x="-807" y="279" key="FileChooserDialogImpl" timestamp="1592689777945">
+      <screen x="-2560" y="0" width="2560" height="1050" />
+    </state>
+    <state x="-807" y="279" key="FileChooserDialogImpl/0.0.1536.834/-2560.0.2560.1050@-2560.0.2560.1050" timestamp="1592689777945" />
+    <state width="1220" height="213" key="GridCell.Tab.0.bottom" timestamp="1592689779779">
+      <screen x="-2560" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1220" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834/-2560.0.2560.1050@-2560.0.2560.1050" timestamp="1592689779779" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834/-2560.0.2560.1050@0.0.1536.834" timestamp="1592615361690" />
+    <state width="1220" height="213" key="GridCell.Tab.0.center" timestamp="1592689779779">
+      <screen x="-2560" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1220" height="213" key="GridCell.Tab.0.center/0.0.1536.834/-2560.0.2560.1050@-2560.0.2560.1050" timestamp="1592689779779" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834/-2560.0.2560.1050@0.0.1536.834" timestamp="1592615361690" />
+    <state width="1220" height="213" key="GridCell.Tab.0.left" timestamp="1592689779779">
+      <screen x="-2560" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1220" height="213" key="GridCell.Tab.0.left/0.0.1536.834/-2560.0.2560.1050@-2560.0.2560.1050" timestamp="1592689779779" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834/-2560.0.2560.1050@0.0.1536.834" timestamp="1592615361689" />
+    <state width="1220" height="213" key="GridCell.Tab.0.right" timestamp="1592689779779">
+      <screen x="-2560" y="0" width="2560" height="1050" />
+    </state>
+    <state width="1220" height="213" key="GridCell.Tab.0.right/0.0.1536.834/-2560.0.2560.1050@-2560.0.2560.1050" timestamp="1592689779779" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834/-2560.0.2560.1050@0.0.1536.834" timestamp="1592615361690" />
+    <state x="-1060" y="267" key="IDE.errors.dialog" timestamp="1592675788045">
+      <screen x="-2560" y="0" width="2560" height="1050" />
+    </state>
+    <state x="-1060" y="267" key="IDE.errors.dialog/0.0.1536.834/-2560.0.2560.1050@-2560.0.2560.1050" timestamp="1592675788045" />
+    <state x="-1085" y="169" key="SettingsEditor" timestamp="1592683057722">
+      <screen x="-2560" y="0" width="2560" height="1050" />
+    </state>
+    <state x="-1085" y="169" key="SettingsEditor/0.0.1536.834/-2560.0.2560.1050@-2560.0.2560.1050" timestamp="1592683057722" />
+    <state x="209" y="37" key="new project wizard" timestamp="1592579277089">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="209" y="37" key="new project wizard/0.0.1536.834/-2560.0.2560.1050@0.0.1536.834" timestamp="1592579277089" />
+    <state x="-815" y="259" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1592654654144">
+      <screen x="-2560" y="0" width="2560" height="1050" />
+    </state>
+    <state x="-815" y="259" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1536.834/-2560.0.2560.1050@-2560.0.2560.1050" timestamp="1592654654144" />
+    <state x="-923" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1592676485347">
+      <screen x="-2560" y="0" width="2560" height="1050" />
+    </state>
+    <state x="-923" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1536.834/-2560.0.2560.1050@-2560.0.2560.1050" timestamp="1592676485347" />
+  </component>
+</project>
