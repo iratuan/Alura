@@ -1,2 +1,2 @@
 # Alura
- Repositório dos exercícios da Alura
+ Repositório dos exercícios e práticas dos cursos da Alura
