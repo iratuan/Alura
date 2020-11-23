@@ -4,11 +4,15 @@ import java.io.IOException;
 
 public class SubControle extends Controle {
 
-	private SubControle() throws IOException{
+	private SubControle() throws IOException {
 		System.out.println("Conseguimos criar um subcontroller");
 	}
-	
+
 	private SubControle(String s) {
-		
+
+	}
+
+	public String metodoSubControle() {
+		return "Fui chamado";
 	}
 }
