@@ -26,7 +26,7 @@ public class Alurator {
 				.refleteClasse(pacoteBase + nomeController)
 				.criaInstancia()
 				.getMetodo(nomeMetodo, params)				
-				.invocar();
+				.invoca();
 		return retorno;
 
 	}
