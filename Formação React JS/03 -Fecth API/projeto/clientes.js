@@ -1,27 +1,29 @@
 const informacoesClientes = [
   {
-    cpf: 86410768320,
-    nome: "Iratuan Junior",
+    cpf: 18875539081,
+    nome: "Jairo"
   },
   {
-    cpf: 56410768320,
-    nome: "Erika Rosal",
+    cpf: 18875539081,
+    nome: "Monica"
   },
 ];
 
-montaCorpoTabela = () => {
-  let corpoTabela = ``;
-  informacoesClientes.map((item) => {
-    corpoTabela += `
-        <tr>
-        <td scope="col">${item.cpf}</td>
-        <td scope="col">${item.nome}</td>
-        <td scope="col">Ações</td>
-        </tr>
-    `;
-  });
-  return corpoTabela;
+const exibeCliente = (cpf, nome) => {
+  const linha = document.createElement("tr");
+  const conteudoLinha = `
+  <td>${cpf}</td>
+  <td>${nome}</td>
+  `;
+
+  linha.innerHTML = conteudoLinha;
+  return linha;
 };
 
 const corpoTabela = document.querySelector("[data-conteudo-tabela]");
-corpoTabela.innerHTML = montaCorpoTabela();
+
+informacoesClientes.forEach(indice => {
+  corpoTabela.appendChild(exibeCliente(indice.cpf, indice.nome))
+})
+
+
