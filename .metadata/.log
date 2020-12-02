@@ -1923,3 +1923,6 @@ Contains: Missing org.springframework.boot:spring-boot-starter-test:jar:javadoc:
 !MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter-test:jar:javadoc:2.1.4.RELEASE
 !SUBENTRY 2 org.eclipse.m2e.core 4 -1 2020-12-01 23:00:19.910
 !MESSAGE Missing org.springframework.boot:spring-boot-starter-test:jar:javadoc:2.1.4.RELEASE
+
+!ENTRY org.eclipse.jdt.ui 2 0 2020-12-01 23:22:04.392
+!MESSAGE The 'org.eclipse.mylyn.java.ui.javaAllCompletionProposalComputer' proposal computer from the 'org.eclipse.mylyn.java.ui' plug-in did not complete normally. The extension took too long to return from the 'computeCompletionProposals()' operation.
