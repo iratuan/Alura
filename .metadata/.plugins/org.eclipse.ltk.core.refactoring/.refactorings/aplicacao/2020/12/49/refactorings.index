@@ -3,3 +3,11 @@
 1607095112998	Rename package 'br.com.alura.spring.data.repository'
 1607095144252	Rename type 'SpringDataApplication'
 1607102782406	Rename type 'CrudService'
+1607106654564	Extract method 'montaMenu'
+1607111158830	Copy compilation unit
+1607111175420	Copy compilation unit
+1607111212147	Copy compilation unit
+1607111404288	Copy compilation unit
+1607111440772	Rename field 'cargoRepository'
+1607111450710	Rename local variable 'cargoRepository'
+1607111867552	Rename field 'respository'

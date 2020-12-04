@@ -69,7 +69,7 @@
 	</section>
 	<section name="RefactoringWizard.preview">
 		<item key="width" value="630"/>
-		<item key="height" value="390"/>
+		<item key="height" value="370"/>
 	</section>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
 		<item key="updateSimilarElements" value="false"/>
@@ -95,7 +95,7 @@
 	<section name="RenameInformationPopup">
 	</section>
 	<section name="BuildPathsPropertyPage">
-		<item key="pageIndex" value="2"/>
+		<item key="pageIndex" value="0"/>
 	</section>
 	<section name="ClasspathContainerSelectionPage">
 		<item key="index" value="3"/>
