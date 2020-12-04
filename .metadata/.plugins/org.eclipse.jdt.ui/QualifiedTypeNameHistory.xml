@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
+<<<<<<< HEAD
+=======
+<fullyQualifiedTypeName name="br.com.alura.forum.model.Topico"/>
+<fullyQualifiedTypeName name="br.com.alura.forum.controller.dto.TopicoDTO"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.DeleteMapping"/>
+<fullyQualifiedTypeName name="javax.transaction.Transactional"/>
+<fullyQualifiedTypeName name="org.springframework.data.domain.PageRequest"/>
+<fullyQualifiedTypeName name="org.springframework.data.domain.Page"/>
+>>>>>>> acb39553eaf3460843478b8d7437a8c81c42a86c
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
 <fullyQualifiedTypeName name="org.springframework.data.web.config.EnableSpringDataWebSupport"/>
 <fullyQualifiedTypeName name="org.springframework.data.web.PageableDefault"/>
@@ -40,6 +50,10 @@
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Value"/>
 <fullyQualifiedTypeName name="io.jsonwebtoken.SignatureAlgorithm"/>
+<<<<<<< HEAD
+=======
+<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+>>>>>>> acb39553eaf3460843478b8d7437a8c81c42a86c
 <fullyQualifiedTypeName name="org.springframework.web.filter.OncePerRequestFilter"/>
 <fullyQualifiedTypeName name="br.com.alura.forum.config.security.AuthTokenFilter"/>
 <fullyQualifiedTypeName name="org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter"/>
@@ -47,10 +61,15 @@
 <fullyQualifiedTypeName name="io.jsonwebtoken.Jwts"/>
 <fullyQualifiedTypeName name="org.hibernate.cfg.SetSimpleValueTypeSecondPass"/>
 <fullyQualifiedTypeName name="org.springframework.security.authentication.UsernamePasswordAuthenticationToken"/>
+<<<<<<< HEAD
+=======
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+>>>>>>> acb39553eaf3460843478b8d7437a8c81c42a86c
 <fullyQualifiedTypeName name="br.com.alura.forum.repository.UsuarioRepository"/>
 <fullyQualifiedTypeName name="br.com.alura.forum.model.Usuario"/>
 <fullyQualifiedTypeName name="br.com.alura.forum.config.security.SecurityConfigurations"/>
 <fullyQualifiedTypeName name="org.springframework.security.core.context.SecurityContextHolder"/>
+<<<<<<< HEAD
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
@@ -60,4 +79,6 @@
 <fullyQualifiedTypeName name="br.com.aygean.model.Cargo"/>
 <fullyQualifiedTypeName name="org.springframework.data.repository.support.Repositories"/>
 <fullyQualifiedTypeName name="br.com.aygean.service.CrudCargoService"/>
+=======
+>>>>>>> acb39553eaf3460843478b8d7437a8c81c42a86c
 </qualifiedTypeNameHistroy>

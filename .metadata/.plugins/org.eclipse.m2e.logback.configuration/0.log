@@ -11960,6 +11960,7 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2020-12-03 20:11:52,122 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Estudos\Alura\Formação Spring Framework\11 - Spring Boot API REST\forum\src\test\resources
 2020-12-03 20:12:17,391 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-12-03 20:12:17,394 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+<<<<<<< HEAD
 2020-12-03 20:12:17,400 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2020-12-03 20:12:17,403 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-12-03 20:12:17,403 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Estudos\Alura\Formação Spring Framework\11 - Spring Boot API REST\forum\src\test\resources
@@ -12383,3 +12384,5 @@ org.eclipse.core.runtime.CoreException: Launch configuration SecurityConfigurati
 2020-12-04 14:45:17,526 [Worker-43: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/2.3.3.RELEASE/spring-boot-devtools-2.3.3.RELEASE-sources.jar
 2020-12-04 14:45:17,810 [Worker-43: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-devtools:2.3.3.RELEASE
 2020-12-04 14:45:17,818 [Worker-43: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-devtools:2.3.3.RELEASE
+=======
+>>>>>>> acb39553eaf3460843478b8d7437a8c81c42a86c

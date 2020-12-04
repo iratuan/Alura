@@ -7643,6 +7643,7 @@ Contains: Missing org.springframework.boot:spring-boot-starter-actuator:jar:java
 !MESSAGE Could not resolve artifact org.springframework.boot:spring-boot-starter-actuator:jar:javadoc:2.1.4.RELEASE
 !SUBENTRY 2 org.eclipse.m2e.core 4 -1 2020-12-03 17:47:01.624
 !MESSAGE Missing org.springframework.boot:spring-boot-starter-actuator:jar:javadoc:2.1.4.RELEASE
+<<<<<<< HEAD
 !SESSION 2020-12-04 12:12:45.061 -----------------------------------------------
 eclipse.buildId=4.15.0.I20200305-0155
 java.version=1.8.0_241
@@ -11341,3 +11342,5 @@ Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "C:\
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.computeJavaPath(XMLLanguageServer.java:126)
 	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.<init>(XMLLanguageServer.java:46)
 	... 154 more
+=======
+>>>>>>> acb39553eaf3460843478b8d7437a8c81c42a86c
