@@ -1,0 +1,5 @@
+1598012250688	Rename package 'dao'
+1598012255058	Move compilation unit
+1598013330925	Extract local variable 'string'
+1598013344373	Convert local variable 'string' to field
+1598013555611	Move compilation unit

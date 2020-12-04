@@ -1,0 +1,31 @@
+1597418241915	Rename resource 'payload_completo.json'
+1597429827291	Delete element
+1597429974577	Rename type 'PayloadListavel'
+1597429991827	Rename type 'ExtratorPayload'
+1597431110171	Delete element
+1597434032335	Move compilation unit
+1597434075842	Copy compilation unit
+1597434112294	Rename type 'MaquinaFactory'
+1597434208602	Rename type 'EntidadeFactory'
+1597434351916	Copy compilation unit
+1597434609911	Rename type 'AtividadeFactory'
+1597434627036	Delete elements
+1597436662928	Delete element
+1597441332855	Move compilation units
+1597441537345	Copy compilation unit
+1597442418795	Copy compilation unit
+1597442441690	Copy compilation unit
+1597443220881	Copy compilation unit
+1597443942752	Copy compilation unit
+1597443993809	Copy compilation unit
+1597447238422	Rename field 'dataUtimaAtualizacao'
+1597447949239	Rename field 'listaRemocao'
+1597449638256	Move folder
+1597449706507	Move file
+1597449714502	Delete element
+1597450395250	Delete element
+1597450803621	Delete element
+1597451594720	Move 'persistence.xml' to 'JavaPoc'
+1597451600782	Delete element
+1597451673695	Delete element
+1597452600074	Copy packages

@@ -1,0 +1,16 @@
+package br.com.carambolo.infra;
+
+
+
+import static org.junit.Assert.assertTrue;
+
+import org.junit.jupiter.api.Test;
+
+class Numeros {
+
+	@Test
+	void testNumero() {
+		assertTrue(Integer.parseInt("01") ==1);
+	}
+
+}

@@ -1,0 +1,13 @@
+package br.com.alura.jpa.testes;
+
+import java.math.BigDecimal;
+
+import br.com.alura.jpa.dao.MovimentacaoDAO;
+
+public class TestaSomaMovimentacoes2 {
+	public static void main(String[] args) {
+			
+		BigDecimal somaMovimentacoes = new MovimentacaoDAO().getSoma();
+		System.out.println(somaMovimentacoes);		
+	}
+}

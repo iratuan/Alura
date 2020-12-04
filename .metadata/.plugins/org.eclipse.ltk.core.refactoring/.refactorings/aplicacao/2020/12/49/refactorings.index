@@ -1,0 +1,5 @@
+1607095048356	Rename package 'br.com.alura.spring.data'
+1607095097478	Rename package 'br.com.alura.spring.data.orm'
+1607095112998	Rename package 'br.com.alura.spring.data.repository'
+1607095144252	Rename type 'SpringDataApplication'
+1607102782406	Rename type 'CrudService'

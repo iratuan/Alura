@@ -1,0 +1,6 @@
+1606874681589	Move compilation unit
+1606874713314	Rename package 'br.com.alura.forum.modelo'
+1606942402235	Copy compilation unit
+1606957663190	Extract local variable 'principal'
+1606957897551	Extract local variable 'iat'
+1607036364293	Rename type 'SwaggerConfiguration'

@@ -1,0 +1,32 @@
+1603394815074	Rename compilation unit 'AtividadeRepository.java'
+1603394925040	Delete element
+1603395210573	Rename package 'com.aygean.jsonconsumer.controllers'
+1603395233256	Rename type 'AtividadeRepository'
+1603395266305	Rename type 'AtividadeResource'
+1603395299795	Rename type 'AtividadeController'
+1603412208968	Rename package 'com.aygean.jsonconsumer.dto'
+1603412228470	Rename type 'AtividadeDTO'
+1603412345580	Rename local variable 'dto'
+1603412353793	Rename local variable 'dto'
+1603414136484	Extract interface 'ServiceInterface'
+1603414839016	Infer generic type arguments
+1603414870738	Infer generic type arguments
+1603415498966	Delete element
+1603415687450	Rename type 'IntefaceVO'
+1603420962946	Rename package 'com.aygean.jsonconsumer.vos'
+1603420978484	Rename type 'AtividadeVO'
+1603420999065	Rename type 'InterfaceVO'
+1603421016293	Rename local variable 'vo'
+1603421024267	Rename local variable 'to'
+1603421036653	Rename local variable 'vo'
+1603472144867	Copy compilation unit
+1603472445116	Delete element
+1603472460556	Copy compilation unit
+1603472502427	Copy compilation unit
+1603472988018	Copy compilation unit
+1603473008683	Rename type 'ServiceResource'
+1603480200960	Copy compilation unit
+1603480231823	Copy compilation unit
+1603480446217	Copy compilation unit
+1603483447574	Extract method 'salvarCliente'
+1603486739357	Extract method 'atualizarCliente'
