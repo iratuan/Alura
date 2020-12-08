@@ -10,36 +10,22 @@ import br.com.alura.forum.modelo.Topico;
 import br.com.alura.forum.repository.CursoRepository;
 
 public class TopicoForm {
-	@NotNull
-	@NotEmpty
-	@Length(min = 5, max = 128, message = "Você deve informar um título com o tamanho entre 5 e 128 caracteres.")
-	private String titulo;
-	@NotNull
-	@NotEmpty
-	@Length(min = 5, max = 100)
-	private String mensagem;
-	@NotNull
-	@NotEmpty
-	private String nomeCurso;
 
-	public String getTitulo() {
-		return titulo;
-	}
+	@NotNull @NotEmpty @Length(min = 5)
+	private String titulo;
+	
+	@NotNull @NotEmpty @Length(min = 10)
+	private String mensagem;
+	
+	@NotNull @NotEmpty
+	private String nomeCurso;
 
 	public void setTitulo(String titulo) {
 		this.titulo = titulo;
 	}
 
-	public String getMensagem() {
-		return mensagem;
-	}
-
 	public void setMensagem(String mensagem) {
 		this.mensagem = mensagem;
-	}
-
-	public String getNomeCurso() {
-		return nomeCurso;
 	}
 
 	public void setNomeCurso(String nomeCurso) {
@@ -47,9 +33,8 @@ public class TopicoForm {
 	}
 
 	public Topico converter(CursoRepository cursoRepository) {
-
-		Curso curso = cursoRepository.findByNome(this.nomeCurso);
-		return new Topico(this.titulo, this.mensagem, curso);
+		Curso curso = cursoRepository.findByNome(nomeCurso);
+		return new Topico(titulo, mensagem, curso);
 	}
 
 }
