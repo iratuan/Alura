@@ -29,12 +29,13 @@
 	</section>
 	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
 		<item key="width" value="480"/>
-		<item key="height" value="531"/>
+		<item key="height" value="667"/>
 		<item key="x" value="1374"/>
 		<item key="y" value="192"/>
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Estudos\Alura\Formação Spring Framework\05 -2 - Spring Data\springdata"/>
 			<item value="C:\Estudos\POCs\jsonconsumer"/>
 			<item value="C:\Estudos\jsonconsumer"/>
 			<item value="C:\Estudos\JavaPocV2"/>
@@ -80,12 +81,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="br.com.aygean"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="jsonconsumer"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -113,6 +112,9 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Estudos\Alura\Formação Spring Framework\06 - Spring MVC I\alura"/>
+			<item value="C:\Estudos\Alura\Formação Spring Framework\05 -2 - Spring Data\springdata"/>
+			<item value="C:\Estudos\Alura\Formação Spring Framework\05 -2 - Spring Data\aplicacao"/>
 			<item value="C:\Estudos\Alura\Formação Spring Framework\11 - Spring Boot API REST\forum"/>
 		</list>
 		<list key="projectNameTemplate">

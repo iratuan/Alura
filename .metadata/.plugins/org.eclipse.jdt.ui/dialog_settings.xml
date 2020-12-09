@@ -95,10 +95,10 @@
 	<section name="RenameInformationPopup">
 	</section>
 	<section name="BuildPathsPropertyPage">
-		<item key="pageIndex" value="0"/>
+		<item key="pageIndex" value="2"/>
 	</section>
 	<section name="ClasspathContainerSelectionPage">
-		<item key="index" value="3"/>
+		<item key="index" value="4"/>
 	</section>
 	<section name="org.eclipse.jdt.internal.ui.dialogs.OpenTypeSelectionDialog2">
 		<item key="ShowStatusLine" value="true"/>
