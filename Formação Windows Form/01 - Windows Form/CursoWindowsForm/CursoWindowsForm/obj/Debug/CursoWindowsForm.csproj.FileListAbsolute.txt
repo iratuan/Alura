@@ -1,0 +1,15 @@
+C:\Estudos\Alura\Formação Windows Form\01 - Windows Form\CursoWindowsForm\CursoWindowsForm\bin\Debug\CursoWindowsForm.exe.config
+C:\Estudos\Alura\Formação Windows Form\01 - Windows Form\CursoWindowsForm\CursoWindowsForm\bin\Debug\CursoWindowsForm.exe
+C:\Estudos\Alura\Formação Windows Form\01 - Windows Form\CursoWindowsForm\CursoWindowsForm\bin\Debug\CursoWindowsForm.pdb
+C:\Estudos\Alura\Formação Windows Form\01 - Windows Form\CursoWindowsForm\CursoWindowsForm\bin\Debug\pt-BR\CursoWindowsForm.resources.dll
+C:\Estudos\Alura\Formação Windows Form\01 - Windows Form\CursoWindowsForm\CursoWindowsForm\obj\Debug\CursoWindowsForm.csprojAssemblyReference.cache
+C:\Estudos\Alura\Formação Windows Form\01 - Windows Form\CursoWindowsForm\CursoWindowsForm\obj\Debug\CursoWindowsForm.Properties.Resources.resources
+C:\Estudos\Alura\Formação Windows Form\01 - Windows Form\CursoWindowsForm\CursoWindowsForm\obj\Debug\CursoWindowsForm.csproj.GenerateResource.cache
+C:\Estudos\Alura\Formação Windows Form\01 - Windows Form\CursoWindowsForm\CursoWindowsForm\obj\Debug\CursoWindowsForm.csproj.CoreCompileInputs.cache
+C:\Estudos\Alura\Formação Windows Form\01 - Windows Form\CursoWindowsForm\CursoWindowsForm\obj\Debug\pt-BR\CursoWindowsForm.resources.dll
+C:\Estudos\Alura\Formação Windows Form\01 - Windows Form\CursoWindowsForm\CursoWindowsForm\obj\Debug\CursoWindowsForm.exe
+C:\Estudos\Alura\Formação Windows Form\01 - Windows Form\CursoWindowsForm\CursoWindowsForm\obj\Debug\CursoWindowsForm.pdb
+C:\Estudos\Alura\Formação Windows Form\01 - Windows Form\CursoWindowsForm\CursoWindowsForm\obj\Debug\CursoWindowsForm.Frm_HelloWorld.resources
+C:\Estudos\Alura\Formação Windows Form\01 - Windows Form\CursoWindowsForm\CursoWindowsForm\obj\Debug\CursoWindowsForm.Frm_HelloWorld.pt-BR.resources
+C:\Estudos\Alura\Formação Windows Form\01 - Windows Form\CursoWindowsForm\CursoWindowsForm\obj\Debug\CursoWindowsForm.Frm_DemostracaoKey.resources
+C:\Estudos\Alura\Formação Windows Form\01 - Windows Form\CursoWindowsForm\CursoWindowsForm\obj\Debug\CursoWindowsForm.Frm_Mascara.resources
