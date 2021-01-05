@@ -14,12 +14,16 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="ejb-alura"/>
+			<item value="alura-ejb"/>
 			<item value="javapocv2"/>
 			<item value="JavaPoc"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="ejb-alura"/>
+			<item value="alura-ejb"/>
 			<item value="javapocv2"/>
 			<item value="JavaPoc"/>
 		</list>
@@ -35,6 +39,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Estudos\Alura\Formação Java\13 - JMS Active MQ\codigo\jms"/>
 			<item value="C:\Estudos\Alura\Formação Spring Framework\05 -2 - Spring Data\springdata"/>
 			<item value="C:\Estudos\POCs\jsonconsumer"/>
 			<item value="C:\Estudos\jsonconsumer"/>
@@ -112,6 +117,8 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Estudos\Alura\Formação Java\14 - Quarkus\bitcoins"/>
+			<item value="C:\Estudos\Alura\Formação Java\03  - EJB\alura-ejb\ejb"/>
 			<item value="C:\Estudos\Alura\Formação Spring Framework\06 - Spring MVC I\alura"/>
 			<item value="C:\Estudos\Alura\Formação Spring Framework\05 -2 - Spring Data\springdata"/>
 			<item value="C:\Estudos\Alura\Formação Spring Framework\05 -2 - Spring Data\aplicacao"/>

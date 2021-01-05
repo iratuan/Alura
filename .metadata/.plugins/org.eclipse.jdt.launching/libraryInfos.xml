@@ -19,6 +19,48 @@
 <entry path="C:\Program Files\Java\jdk1.8.0_241\jre\lib\endorsed"/>
 </endorsedDirs>
 </libraryInfo>
+<libraryInfo home="C:\Ambiente\graalvm\graalvm-ce-java8-20.3.0\jre" version="1.8.0_272">
+<bootpath>
+<entry path="C:\Ambiente\graalvm\graalvm-ce-java8-20.3.0\jre\lib\resources.jar"/>
+<entry path="C:\Ambiente\graalvm\graalvm-ce-java8-20.3.0\jre\lib\rt.jar"/>
+<entry path="C:\Ambiente\graalvm\graalvm-ce-java8-20.3.0\jre\lib\sunrsasign.jar"/>
+<entry path="C:\Ambiente\graalvm\graalvm-ce-java8-20.3.0\jre\lib\jsse.jar"/>
+<entry path="C:\Ambiente\graalvm\graalvm-ce-java8-20.3.0\jre\lib\jce.jar"/>
+<entry path="C:\Ambiente\graalvm\graalvm-ce-java8-20.3.0\jre\lib\charsets.jar"/>
+<entry path="C:\Ambiente\graalvm\graalvm-ce-java8-20.3.0\jre\lib\jfr.jar"/>
+<entry path="C:\Ambiente\graalvm\graalvm-ce-java8-20.3.0\jre\lib\jvmci-services.jar"/>
+<entry path="C:\Ambiente\graalvm\graalvm-ce-java8-20.3.0\jre\classes"/>
+<entry path="C:\Ambiente\graalvm\graalvm-ce-java8-20.3.0\jre\lib\boot\graal-sdk.jar"/>
+<entry path="C:\Ambiente\graalvm\graalvm-ce-java8-20.3.0\jre\lib\boot\graal-sdk.src.zip"/>
+<entry path="C:\Ambiente\graalvm\graalvm-ce-java8-20.3.0\jre\lib\boot\graaljs-scriptengine.jar"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Ambiente\graalvm\graalvm-ce-java8-20.3.0\jre\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Ambiente\graalvm\graalvm-ce-java8-20.3.0\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\Ambiente\java\jre8" version="1.8.0_271">
+<bootpath>
+<entry path="C:\Ambiente\java\jre8\lib\resources.jar"/>
+<entry path="C:\Ambiente\java\jre8\lib\rt.jar"/>
+<entry path="C:\Ambiente\java\jre8\lib\sunrsasign.jar"/>
+<entry path="C:\Ambiente\java\jre8\lib\jsse.jar"/>
+<entry path="C:\Ambiente\java\jre8\lib\jce.jar"/>
+<entry path="C:\Ambiente\java\jre8\lib\charsets.jar"/>
+<entry path="C:\Ambiente\java\jre8\lib\jfr.jar"/>
+<entry path="C:\Ambiente\java\jre8\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Ambiente\java\jre8\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Ambiente\java\jre8\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
 <libraryInfo home="C:\Program Files\Java\jre1.8.0_241" version="1.8.0_241">
 <bootpath>
 <entry path="C:\Program Files\Java\jre1.8.0_241\lib\resources.jar"/>
@@ -38,4 +80,5 @@
 <entry path="C:\Program Files\Java\jre1.8.0_241\lib\endorsed"/>
 </endorsedDirs>
 </libraryInfo>
+<libraryInfo home="C:\Ambiente\graalvm\graalvm-ce-java11-20.3.0" version="11.0.9"/>
 </libraryInfos>

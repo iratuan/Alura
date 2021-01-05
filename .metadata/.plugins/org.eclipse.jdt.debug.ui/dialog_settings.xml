@@ -4,6 +4,7 @@
 	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth1" value="239"/>
 	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.columnWidth2" value="100"/>
 	<item key="org.eclipse.jdt.debug.ui.jre_preference_page_context.sortColumn" value="1"/>
+	<item key="LAST_PATH_SETTING" value="C:\Ambiente\graalvm"/>
 	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
 		<item key="ShowStatusLine" value="true"/>
 		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=alurator-playground/src&amp;lt;br.com.alura.alurator.playground.reflexao{TesteInstanciaObjeto.java[TesteInstanciaObjeto&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=alurator-playground/src&amp;lt;br.com.alura.alurator.playground.reflexao{TesteInstaciaObjetoCorretamente.java[TesteInstaciaObjetoCorretamente&lt;/infoNode&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;"/>
