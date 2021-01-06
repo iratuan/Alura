@@ -14,6 +14,8 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="leiloes-rest-assured"/>
+			<item value="leiloes"/>
 			<item value="ejb-alura"/>
 			<item value="alura-ejb"/>
 			<item value="javapocv2"/>
@@ -22,6 +24,8 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="leiloes-rest-assured"/>
+			<item value="leiloes"/>
 			<item value="ejb-alura"/>
 			<item value="alura-ejb"/>
 			<item value="javapocv2"/>
@@ -39,11 +43,6 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
-			<item value="C:\Estudos\Alura\Formação Java\13 - JMS Active MQ\codigo\jms"/>
-			<item value="C:\Estudos\Alura\Formação Spring Framework\05 -2 - Spring Data\springdata"/>
-			<item value="C:\Estudos\POCs\jsonconsumer"/>
-			<item value="C:\Estudos\jsonconsumer"/>
-			<item value="C:\Estudos\JavaPocV2"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -86,10 +85,12 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="br.com.alura"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="camel"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -117,12 +118,26 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Estudos\Selecoes\Tema\hearthstone"/>
+			<item value="C:\Estudos\Alura\Formação Java\14 - Quarkus\bitcoins\pom.xml"/>
 			<item value="C:\Estudos\Alura\Formação Java\14 - Quarkus\bitcoins"/>
 			<item value="C:\Estudos\Alura\Formação Java\03  - EJB\alura-ejb\ejb"/>
 			<item value="C:\Estudos\Alura\Formação Spring Framework\06 - Spring MVC I\alura"/>
 			<item value="C:\Estudos\Alura\Formação Spring Framework\05 -2 - Spring Data\springdata"/>
 			<item value="C:\Estudos\Alura\Formação Spring Framework\05 -2 - Spring Data\aplicacao"/>
 			<item value="C:\Estudos\Alura\Formação Spring Framework\11 - Spring Boot API REST\forum"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenCheckoutLocationPage">
+		<list key="scmUrl">
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

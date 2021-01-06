@@ -6,6 +6,9 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Estudos\Alura\Formação Java\18 - Apache Camel\camel-alura"/>
+			<item value="C:\Estudos\Alura\Formação Java\17 - REST ASSURED\leiloes"/>
+			<item value="C:\Estudos\Alura\Formação Java\17 - REST ASSURED\leiloes-rest-assured"/>
 			<item value="C:\Estudos\Alura\Formação Spring Framework\11 - Spring Boot API REST\forum"/>
 			<item value="C:\Estudos\Alura\Formação Spring Framework\05 -2 - Spring Data\aplicacao"/>
 			<item value="C:\Users\iratuan\Downloads\spring-backend-template-master\spring-backend-template-master"/>
@@ -29,9 +32,9 @@
 		</section>
 	</section>
 	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jst.ejb.ui.project.facet.EjbProjectWizard"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.m2e.core.wizards.Maven2ProjectWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.eclipse.jst.ejb.ui"/>
+			<item value="org.eclipse.m2e"/>
 		</list>
 	</section>
 	<section name="ExternalProjectImportWizard">

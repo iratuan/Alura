@@ -80,5 +80,24 @@
 <entry path="C:\Program Files\Java\jre1.8.0_241\lib\endorsed"/>
 </endorsedDirs>
 </libraryInfo>
+<libraryInfo home="C:\Ambiente\java\jkd8" version="1.8.0_271">
+<bootpath>
+<entry path="C:\Ambiente\java\jkd8\jre\lib\resources.jar"/>
+<entry path="C:\Ambiente\java\jkd8\jre\lib\rt.jar"/>
+<entry path="C:\Ambiente\java\jkd8\jre\lib\sunrsasign.jar"/>
+<entry path="C:\Ambiente\java\jkd8\jre\lib\jsse.jar"/>
+<entry path="C:\Ambiente\java\jkd8\jre\lib\jce.jar"/>
+<entry path="C:\Ambiente\java\jkd8\jre\lib\charsets.jar"/>
+<entry path="C:\Ambiente\java\jkd8\jre\lib\jfr.jar"/>
+<entry path="C:\Ambiente\java\jkd8\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Ambiente\java\jkd8\jre\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Ambiente\java\jkd8\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
 <libraryInfo home="C:\Ambiente\graalvm\graalvm-ce-java11-20.3.0" version="11.0.9"/>
 </libraryInfos>
