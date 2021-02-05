@@ -118,6 +118,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Estudos\Alura\Formação Java\18 - Apache Camel\webservices"/>
 			<item value="C:\Estudos\Selecoes\Tema\hearthstone"/>
 			<item value="C:\Estudos\Alura\Formação Java\14 - Quarkus\bitcoins\pom.xml"/>
 			<item value="C:\Estudos\Alura\Formação Java\14 - Quarkus\bitcoins"/>
